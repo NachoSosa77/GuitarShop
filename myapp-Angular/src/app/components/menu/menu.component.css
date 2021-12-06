@@ -1,0 +1,11 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.btn {
+  margin: 3px;
+  font-size: 20px;
+}
+.mat-menu-item{
+  background-color: #c2185b;
+  font-size: 15px;
+}

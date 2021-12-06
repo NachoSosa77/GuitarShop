@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"
+    [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/productos" >Guitarras</button>
+  </mat-menu>
+  <span><button mat-flat-button class="btn" color="primary" routerLink="/">Anacruza</button></span>
+  <span class="example-spacer"> </span>
+  <button mat-flat-button class="btn" color="primary" routerLink="/users">Registro</button>
+  <button mat-flat-button class="btn" color="primary" routerLink="/users/login" >Login</button>
+</mat-toolbar>

@@ -1,0 +1,26 @@
+.mat-grid-list{
+margin-left: 30%;
+}
+.example-card {
+  margin-top: 10px;
+  background-color: #9b2252;
+}
+
+.mat-card-image {
+  height: 130px;
+  width: 325px;
+}
+
+.mat-raised-button {
+  width: 100%;
+  font-size: 15px;
+}
+
+.mat-card-subtitle {
+  text-align: right;
+}
+
+.mat-card-content {
+  text-align: right;
+  ;
+}
